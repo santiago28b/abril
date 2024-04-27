@@ -110,3 +110,31 @@ iframe {
       height: 200px; /* Adjust height on smaller screens */
   }
 }
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;  
+    text-align: center;  
+    z-index: 2;  
+    color: wheat;  
+}
+
+.hero h2 {
+  font-size: 2rem;  
+  padding: 0.5rem;
+  color: wheat;
+  margin: 0; 
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: 50px;
+ 
+
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+      font-size: 1.5rem;  
+  }
+}
